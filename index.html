@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دليل المعايير والمؤشرات - مشروع الكوتشينج التعليمي</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;900&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #006C35; /* Saudi Green */
+            --secondary: #1F2937; /* Dark Gray */
+            --accent: #Cda434; /* Gold */
+            --bg-light: #F9FAFB;
+            --white: #ffffff;
+            --border: #E5E7EB;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: var(--bg-light);
+            color: var(--secondary);
+            line-height: 1.6;
+            -webkit-print-color-adjust: exact;
+        }
+
+        .container {
+            max-width: 210mm;
+            margin: 40px auto;
+            background: var(--white);
+            padding: 50px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            min-height: 297mm;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            border-bottom: 4px solid var(--accent);
+            padding-bottom: 30px;
+            margin-bottom: 50px;
+        }
+
+        h1 {
+            font-family: 'Tajawal', sans-serif;
+            color: var(--primary);
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+
+        .sub-header {
+            font-size: 1.2rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        /* Standard Block */
+        .standard-block {
+            margin-bottom: 50px;
+            break-inside: avoid;
+        }
+
+        .standard-header {
+            background: var(--primary);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px 8px 0 0;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .std-num {
+            background: rgba(255,255,255,0.2);
+            width: 40px; height: 40px;
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            font-weight: bold; font-size: 1.2rem;
+        }
+
+        .std-title {
+            font-family: 'Tajawal', sans-serif;
+            font-size: 1.4rem;
+            font-weight: 700;
+        }
+
+        .std-definition {
+            background: #f0fdf4;
+            border: 1px solid var(--primary);
+            border-top: none;
+            padding: 20px 25px;
+            color: var(--secondary);
+            font-size: 1rem;
+            font-weight: 600;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Indicators Table */
+        .indicators-table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid var(--border);
+            border-top: none;
+        }
+
+        .indicators-table th {
+            background: #f3f4f6;
+            text-align: right;
+            padding: 12px 25px;
+            font-weight: 700;
+            color: var(--primary);
+            width: 30%;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .indicators-table td {
+            padding: 12px 25px;
+            border-bottom: 1px solid #eee;
+            font-size: 0.95rem;
+            color: #4b5563;
+        }
+
+        .indicators-table tr:last-child td { border-bottom: none; }
+
+        /* Footer */
+        footer {
+            margin-top: 50px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        @media print {
+            body { margin: 0; padding: 0; background: white; }
+            .container { width: 100%; max-width: 100%; box-shadow: none; margin: 0; padding: 0; }
+            .standard-block { break-inside: avoid; page-break-inside: avoid; }
+            @page { margin: 1.5cm; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>دليل المعايير والمؤشرات الإجرائية</h1>
+        <div class="sub-header">لمشروع الكوتشينج التعليمي - إدارة تعليم عسير</div>
+        <div style="margin-top: 15px; font-size: 0.9rem; color: var(--accent); font-weight: bold;">
+            إعداد: أ. محمد علي عبدالله عسيري - كوتش محترف معتمد PCC
+        </div>
+    </header>
+
+    <!-- Standard 1 -->
+    <div class="standard-block">
+        <div class="standard-header">
+            <div class="std-num">1</div>
+            <div class="std-title">المعيار الأول: البنية التحتية والدعم القيادي</div>
+        </div>
+        <div class="std-definition">
+            <strong>التعريف الإجرائي:</strong> توفير البيئة المادية والتنظيمية والنفسية اللازمة داخل المدرسة لتمكين الكوتش من أداء مهامه بفعالية، بدعم مباشر ومُعلن من القيادة المدرسية.
+        </div>
+        <table class="indicators-table">
+            <tr>
+                <th>1.1 المكان والمساحة</th>
+                <td>توفر مساحة مكانية خاصة وهادئة (غرفة أو ركن مجهز) تضمن الخصوصية لإجراء جلسات الكوتشينج الفردية مع المعلمين.</td>
+            </tr>
+            <tr>
+                <th>1.2 الدعم القيادي المعلن</th>
+                <td>إعلان قائد المدرسة رسمياً أمام الهيئة التعليمية عن تبني المشروع، وتوضيح دور الكوتش كشريك للتطوير وليس مقيماً للأداء.</td>
+            </tr>
+            <tr>
+                <th>1.3 الوقت والتفريغ</th>
+                <td>تخصيص ساعات محددة وثابتة في الجدول المدرسي (تخفيض النصاب) للكوتش ليتمكن من زيارة الفصول وعقد الجلسات.</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Standard 2 -->
+    <div class="standard-block">
+        <div class="standard-header">
+            <div class="std-num">2</div>
+            <div class="std-title">المعيار الثاني: جدارات الكوتش التعليمي</div>
+        </div>
+        <div class="std-definition">
+            <strong>التعريف الإجرائي:</strong> مجموعة المهارات والمعارف والسلوكيات المهنية التي يجب أن يمتلكها ويمارسها الكوتش وفق معايير الاتحاد الدولي للكوتشينج (ICF) لضمان جودة الجلسات.
+        </div>
+        <table class="indicators-table">
+            <tr>
+                <th>2.1 جدارات الكوتشينج (ICF)</th>
+                <td>تطبيق مهارات الاستماع النشط، وطرح الأسئلة القوية والمحفزة للتفكير، وبناء الألفة والثقة مع المستفيد (المعلم) أثناء الجلسات.</td>
+            </tr>
+            <tr>
+                <th>2.2 القدرة على النمذجة (Modeling)</th>
+                <td>قدرة الكوتش على تنفيذ وشرح استراتيجيات التدريس الحديثة عملياً داخل الفصل أمام المعلم بتمكن واقتدار.</td>
+            </tr>
+            <tr>
+                <th>2.3 الميثاق الأخلاقي</th>
+                <td>الالتزام التام بالسرية وعدم مشاركة تفاصيل الجلسات مع الإدارة كأداة تقييم، والحفاظ على علاقة مهنية خالية من الأحكام.</td>
+            </tr>
+            <tr>
+                <th>2.4 التطوير المهني المستمر</th>
+                <td>وجود سجل يوثق ساعات التعلم الذاتي وحضور الدورات المتقدمة للكوتش لضمان تجديد معارفه وخبراته.</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Standard 3 -->
+    <div class="standard-block">
+        <div class="standard-header">
+            <div class="std-num">3</div>
+            <div class="std-title">المعيار الثالث: منهجية دورة التأثير (Impact Cycle)</div>
+        </div>
+        <div class="std-definition">
+            <strong>التعريف الإجرائي:</strong> الالتزام بتطبيق خطوات منهجية جيم نايت الثلاثية (التحديد، التعلم، التحسين) بشكل تسلسلي ومنظم لضمان تحقيق نتائج ملموسة.
+        </div>
+        <table class="indicators-table">
+            <tr>
+                <th>3.1 التشخيص القائم على الأدلة (Identify)</th>
+                <td>استخدام تسجيل الفيديو للحصة أو أدوات الملاحظة الدقيقة لتكوين صورة واقعية عن المستوى الحالي، بدلاً من الاعتماد على الانطباعات الشخصية.</td>
+            </tr>
+            <tr>
+                <th>3.2 صياغة أهداف PEERS</th>
+                <td>صياغة أهداف للكوتشينج تكون: قوية الأثر، سهلة الفهم، ملهمة عاطفياً، قابلة للقياس، ومركّزة بالدرجة الأولى على نواتج تعلم الطالب.</td>
+            </tr>
+            <tr>
+                <th>3.3 أدلة التعلم (Checklists)</th>
+                <td>تزويد المعلم بقوائم مراجعة وخطوات إجرائية واضحة ومكتوبة للاستراتيجية الجديدة قبل البدء في تطبيقها.</td>
+            </tr>
+            <tr>
+                <th>3.4 التطبيق والتحسين (Improve)</th>
+                <td>متابعة تطبيق المعلم للاستراتيجية، وجمع البيانات حول أثرها، وإجراء التعديلات اللازمة حتى يتم الوصول للهدف المنشود.</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Standard 4 -->
+    <div class="standard-block" style="page-break-before: always;"> <!-- Page Break -->
+        <div class="standard-header">
+            <div class="std-num">4</div>
+            <div class="std-title">المعيار الرابع: التكامل مع إطار الوزارة</div>
+        </div>
+        <div class="std-definition">
+            <strong>التعريف الإجرائي:</strong> تفعيل الأدوات والنماذج المعتمدة من وزارة التعليم ضمن عمليات الكوتشينج لضمان توافق الجهود مع التوجهات الوطنية.
+        </div>
+        <table class="indicators-table">
+            <tr>
+                <th>4.1 أداة ملاحظة التدريس</th>
+                <td>استخدام "بطاقة ملاحظة التدريس" الوزارية كأداة تشخيصية لتحديد نقاط القوة وفرص التحسين، وليس كأداة للحكم وإصدار الدرجات.</td>
+            </tr>
+            <tr>
+                <th>4.2 تحليل ثقافة التدريس</th>
+                <td>تطبيق أدوات قياس "ثقافة المدرسة" لمعرفة مدى دعم البيئة المدرسية للتعلم النشط والتعاون المهني.</td>
+            </tr>
+            <tr>
+                <th>4.3 نواتج التعلم</th>
+                <td>ربط جميع أهداف الكوتشينج بتحسين نواتج التعلم المحددة في المقررات الدراسية وخرائط المنهج.</td>
+            </tr>
+            <tr>
+                <th>4.4 مجتمعات التعلم المهنية (PLC)</th>
+                <td>قيادة الكوتش لفرق العمل المدرسية (PLC) وتوجيه نقاشاتها نحو تحليل بيانات الطلاب وتحسين طرق التدريس.</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Standard 5 -->
+    <div class="standard-block">
+        <div class="standard-header">
+            <div class="std-num">5</div>
+            <div class="std-title">المعيار الخامس: الأثر والاستدامة</div>
+        </div>
+        <div class="std-definition">
+            <strong>التعريف الإجرائي:</strong> قياس النتائج الملموسة لعمليات الكوتشينج على أداء المعلمين وتحصيل الطلاب، وضمان استمرار الممارسات الجيدة ذاتياً.
+        </div>
+        <table class="indicators-table">
+            <tr>
+                <th>5.1 نسبة التبني (Adoption Rate)</th>
+                <td>قياس نسبة المعلمين الذين استمروا في تطبيق الاستراتيجيات الجديدة بشكل ذاتي بعد انتهاء دورة الكوتشينج (المستهدف > 80%).</td>
+            </tr>
+            <tr>
+                <th>5.2 تحسن نواتج الطلاب</th>
+                <td>رصد تطور درجات الطلاب أو مستوى انخراطهم في الفصول التي خضع معلموها للكوتشينج مقارنة بالسابق.</td>
+            </tr>
+            <tr>
+                <th>5.3 الرضا المهني</th>
+                <td>قياس مستوى رضا المعلمين عن الدعم المقدم من الكوتش ومدى شعورهم بالتحسن المهني من خلال استبانات دورية.</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        جميع الحقوق محفوظة - إدارة تعليم عسير - مبادرة الكوتشينج التعليمي 2025
+    </footer>
+</div>
+
+</body>
+</html>
